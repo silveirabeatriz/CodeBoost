@@ -1,0 +1,42 @@
+.titulo-principal{
+     color: red;
+}  
+
+.botao-enviar{
+    background-color:black ;
+    color: white;
+    width: 120px;
+    height: 60px;
+}
+
+.botao-enviar.botao-cadastrar{
+    background-color: blue;
+}
+
+#btn-botao{
+    background-color: aquamarine;
+}
+
+#btn-botao:hover{
+    background-color: blue;
+}
+
+input {
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid red;
+}
+
+ul li:first-child{
+    color: blueviolet;
+}
+
+ul li:last-child{
+    color: yellow;
+}
+
+ul li:nth-child(3){
+    color: pink;
+}
